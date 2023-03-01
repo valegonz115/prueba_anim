@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 48, 51);
+    background-image: url(../images/Super_Mario_C64_Screen.jpg);
+    background-size: 90%;
+}
+
+.uno {
+    width: 200px;
+    animation-name: mover;
+    animation-duration: 7s;
+}
+
+@keyframes mover {
+    from {
+      top: 0px;
+      width: 60%;
+    }
+  
+    75% {
+      margin-left: 25%;
+      width: 60%;
+    }
+  
+    100% {
+      right: 50%;
+    }
+  }
